@@ -1,0 +1,19 @@
+# Runtime and Gemini API (google-genai 2.33+ explicitly supports Python 3.15)
+python-dotenv>=1.0,<2.0
+google-genai>=2.33,<3.0
+groq>=1.7,<2.0
+customtkinter>=6.0,<7.0
+
+# Voice capture, recognition and speech playback on current CPython Windows builds
+SpeechRecognition==3.17.0
+sounddevice==0.5.6
+edge-tts>=7.2,<8.0
+pygame-ce==2.5.8
+
+# Windows controls and system tray
+pycaw>=20260921
+comtypes>=1.4.17,<2.0
+pywin32>=312
+screen-brightness-control>=0.24
+pystray>=0.19.5,<1.0
+Pillow>=13.0,<14.0
